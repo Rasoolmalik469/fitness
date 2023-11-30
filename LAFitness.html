@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LA Fitness</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('https://images.fitnessintl.com/images/CMS/LAF/HomePage/TopCarousel_VideoBG/Add_FAO_Rate_Desktop_20231128.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    .social-icons {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+    }
+
+    .social-icons a {
+      margin-left: 15px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ffd700;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ffd700;
+      color: #333;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 15px 20px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ffd700;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    section {
+      padding: 30px;
+      color: #333;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LA Fitness</h1>
+    <div class="social-icons">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="dropdown">
+      <button class="dropbtn">About <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="#">History</a>
+        <a href="#">Mission</a>
+        <a href="#">Team</a>
+        <a href="#">Achievements</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Gallery</a>
+      </div>
+    </div>
+    <a href="https://www.lafitness.com/Pages/FindClub.aspx">Locations</a>
+    <a href="https://www.lafitness.com/Pages/AerobicClasses.aspx">Classes</a>
+    <a href="https://www.lafitness.com/Pages/PersonalTrainingGeneral.aspx">Personal Training</a>
+    <a href="https://www.lafitness.com/pages/login.aspx">Rewards</a>
+    <a href="https://www.lafitness.com/Pages/MembershipSignUpSearch.aspx">Join Now</a>
+    <a href="https://www.lafitness.com/Pages/ContactUs.aspx">Contact</a>
+    <a href="#pricing">Pricing</a>
+  </nav>
+
+
+  <footer>
+    &copy; 2023 LA Fitness. All rights reserved.
+  </footer>
+
+</body>
+</html>
